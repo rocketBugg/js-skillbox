@@ -4,14 +4,13 @@ function createStudentCard(name , age) {
   title.textContent = `${name}`;
   let text = document.createElement("span");
   text.textContent = `Возраст: ${age} лет`;
-
-  document.body.append(div);
   div.append(title);
   div.append(text);
-
+  return div;
 }
 
-createStudentCard('Игорь', 17);
+document.body.append(createStudentCard('Игорь', 17));
+
 
 // let div = document.createElement("div");
 // let name = document.createElement("h2");
