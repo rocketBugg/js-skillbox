@@ -28,7 +28,6 @@ function createList(arr, list) {
     listItem.append(title);
     listItem.append(text);
     list.append(listItem);
-
   }
 }
 

@@ -1,3 +1,9 @@
+let studentObj={
+  name: 'Игорь',
+  age: 17
+ };
+
+
  function createStudentCard(obj) {
   let div = document.createElement("div");
   let title = document.createElement("h2");
@@ -12,9 +18,4 @@
 
 document.body.append(createStudentCard(studentObj));
 
-let studentObj={
-  name: 'Игорь',
-  age: 17
- }
 
-createStudentCard(studentObj)
